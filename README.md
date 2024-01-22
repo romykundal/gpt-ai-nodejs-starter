@@ -28,8 +28,9 @@ In this example, we'll demonstrate a simple unit test for a JavaScript function 
 ### Running Tests
 
 To run the unit tests, follow these steps:
-
-npm run test
+  
+  ```bash
+  npm run test
 
 
 ## Environment Variables
@@ -41,21 +42,23 @@ OPENAI_API_KEY=your_openai_api_key
 Organization_API_KEY=your_organization_api_key
 MONGO_UI=your_mongo_ui_connection_string
 
+``
 ## Usage
 Chat Completions API
 Endpoint
-```/api/chat-completions-api
+/api/chat-completions-api
 Method: GET
 
 ##Text to speech
-``/api/text-to-speech
+/api/text-to-speech
 Method: GET
 
 ##Speech to Text
-``/api/speech-to-text
+/api/speech-to-text
 Method: POST
 
 
+``
 ## OpenAI GPT-3.5 Turbo
 
 This project utilizes OpenAI GPT-3.5 Turbo for [specific functionality/task]. For detailed information about GPT-3.5 Turbo, refer to the following resources:
